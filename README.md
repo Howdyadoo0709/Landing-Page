@@ -1,1 +1,1 @@
-# Landing-Page
+This project is just to showcase all the skills I have learned so far using HTML and CSS as well as recently, Flexbox.
