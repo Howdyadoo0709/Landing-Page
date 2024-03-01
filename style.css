@@ -6,18 +6,36 @@ body {
 .dark-bg {
     background-color: #1F2937;
     color: white;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 #first-section-bold {
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
+    margin-bottom: 0;
 }
 
 .top-header {
     display: flex;
     justify-content: space-between;
+    font-size: 18px;
+    color: #E5E7EB;
 }
+#header-logo {
+    font-weight: bold;
+}
+
+.top-picture {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
 
 .left-first-section {
     display: flex;
@@ -26,6 +44,24 @@ body {
 
 .split {
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+    height: 100px;
+}
+
+.split-2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+#top-button {
+    background-color: #3882F6;
+    color: white;
+    padding: 6px 24px;
+    border-radius: 8px;
+    border: none;
 }
 
 .quote-section {
@@ -35,16 +71,16 @@ body {
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
+    font-weight: 100;
     justify-content: center;
-    padding: 60px;
+    padding: 60px 100px;
 }
 
 .howdyadoo {
     display: flex;
     flex-direction: row-reverse;
-   
-    
-   
+    font-size: 18px;
+    font-weight: bold;
 }
 
 ul {
@@ -56,33 +92,75 @@ ul {
 
 .h1-second-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
 }
-.image {
+
+.image-container {
     display: flex;
-    flex-wrap: wrap ;
+    justify-content: center;
+    width: 100%;
+    gap: 45px;
+
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
 }
 
 .blue-box {
     background-color: #3882F6;
-    border-radius: 25px;
-    padding: 20px;
-    height: 150px;
+    border-radius: 5px;
+    padding: 20px 80px;
     display: flex;
-    justify-content: space-between;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    margin: 80px 180px;
     color: #F9FAF8;
-    margin: 65px;
 }
 
-.inside-blue {
+.top-line {
     display: flex;
     flex-direction: column;
-    width: fit-content;
+    justify-content: space-around;
+    
+}
+
+.blue-bottom-button {
+    display: flex;
+}
+
+
+#bottom-button {
+    background-color: #3882F6;
+    color: white;
+    padding: 6px 24px;
+    border-radius: 8px;
+    border: 2px solid white;
+    display: flex;
+}
+
+
+#action {
+    font-weight: bold;
+    padding: 0;
 }
 
 .footer {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
 }
+
+img {
+    border-radius: 10px;
+}
+
+
+
+
 
